@@ -1,0 +1,212 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    font-family: sans-serif; 
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+    padding: 50px 20px;
+}
+nav>ul>li a{
+    color:black;
+    text-decoration: none;
+}
+
+
+#body1{
+    background-image: url("images/images.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container1{
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+
+}
+.left{
+    height: 500px;
+    width: 400px;
+    background: rgba(0,0,0,0.5);
+   border: 5px;
+
+}
+.card{
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    left: 110px;
+
+}
+.card img{
+    opacity: 0.7;
+}
+.card input{
+    margin: auto;
+    padding: 10px;
+}
+.card h3{
+    text-decoration: double underline lightblue;
+    color: white;
+    position: relative;
+    top: -5px;
+    left: 22px;
+}
+
+.card button{
+    padding: 10px 25px;
+    background-color: lightskyblue;
+
+}
+.right{
+    height: 500px;
+    width: 800px;
+    background: rgba(0,0,0,0.5);
+    color:white ;
+    margin-left: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.right h1 {
+    font-size: 25px;
+    position: relative;
+    top: 75px;
+    left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+}
+
+.right h2 {
+    font-size: 25px;
+    position: relative;
+    top: 75px;
+    left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+
+
+.right p{
+    position: relative;
+    top: 80px;
+    left: 90px;
+    
+}
+
+#body2{
+    background-color: antiquewhite;
+}
+
+.container2{
+    height: 150px;
+    width: 1200px;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+ .container2 h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-decoration: double underline brown;
+ }
+ .container2 p{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+ }
+
+ #body3{
+    width: 100%;
+    height: 1000px;
+    background-color: grey;
+    margin-top: 20px;
+ }
+
+ .card1{
+    width: 20%;
+    background: rgba(0,0,0,0.5);
+    margin: 40px;
+    margin-left: 100px;
+    padding:10px;
+    display: inline-block;
+ }
+
+ .image img{
+    width:100%;
+ }
+ .card1:hover{
+    box-shadow: 10px 10px 5px black;
+ }
+
+ .title{
+    text-align: center;
+    padding: 5px;
+    color:black
+ }
+
+ .title h3{
+    text-align: center;
+    padding: 5px;
+    color: whitesmoke;
+ }
+
+ .des{
+    text-align: center;
+ }
+
+ button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:whitesmoke;
+    border: 3px solid black;
+    padding:10px;
+    border-radius: 5px;
+ }
+
+ button:hover{
+      background-color: black;
+      color: whitesmoke;
+      transition: 1s;
+ }
+ .container3{
+    height: 130px;
+    width: 100%;
+    background-color:grey;
+   
+ }
+
+ .container3 h2{
+    text-align: center;
+    margin-top:25px;
+    padding: 10px;
+ }
+ .container3 h3 {
+     padding: 10px;
+    text-align: center;
+ }
+
+ 
